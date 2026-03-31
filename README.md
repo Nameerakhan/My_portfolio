@@ -54,10 +54,10 @@ Automated evaluation system for open-ended responses using embeddings.
 - Used Redis for caching and real-time system responsiveness
 
 ---
+![WhatsApp Image 2026-03-31 at 3 04 03 PM](https://github.com/user-attachments/assets/84135421-081d-4e0a-84c8-25db8d40e1ae)
+![WhatsApp Image 2026-03-31 at 3 04 03 PM (1)](https://github.com/user-attachments/assets/4b5feb3e-15dc-405b-9903-2965a2566a71)
+![WhatsApp Image 2026-03-31 at 3 04 03 PM (2)](https://github.com/user-attachments/assets/86f8fc28-00d6-4fc4-a29e-a8a7f1501da5)
 
-![WhatsApp Image 2026-03-29 at 2 47 40 PM](https://github.com/user-attachments/assets/46e25e6a-510b-473e-9d40-e69beecf25fb)
-![WhatsApp Image 2026-03-29 at 2 47 40 PM (1)](https://github.com/user-attachments/assets/88a0a5d6-ff8b-49d4-bfa8-165bc99d89c4)
-![WhatsApp Image 2026-03-29 at 2 49 35 PM](https://github.com/user-attachments/assets/2187e486-7a73-43b8-b6d0-53168298b3a5)
 
 
 
