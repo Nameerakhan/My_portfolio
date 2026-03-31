@@ -25,7 +25,8 @@ AI-driven platform for interactive cybersecurity training with real-time evaluat
 - Integrated semantic evaluation for automated feedback without model fine-tuning  
 
 **Tech:** FastAPI · Redis · Vector DB · OpenAI · Async Python  
-👉 [Live Demo] | [Source Code]
+🔗 GitHub: https://github.com/Quiz-Rag/next-app.git  
+🎥 Demo: https://drive.google.com/file/d/1oJInVJYRmZST9lXC0clNR8nic8Vjw3nO/view
 
 ---
 
@@ -37,7 +38,28 @@ Automated evaluation system for open-ended responses using embeddings.
 - Reduced manual grading effort significantly while maintaining reliability  
 
 **Tech:** Python · Embeddings · NLP · Evaluation Pipelines  
-👉 [Project Link]
+#### 1. Low-Latency RAG Pipeline
+- Implemented retrieval system over **1,000+ indexed chunks**
+- Optimized query latency to **<100ms**
+- Integrated vector search with caching for faster response times
+
+#### 2. Semantic Grading System
+- Built embedding-based evaluation system achieving **~95% accuracy**
+- Eliminated need for fine-tuning using semantic similarity scoring
+- Supports flexible answers with high conceptual accuracy
+
+#### 3. Concurrent Backend Infrastructure
+- Designed **non-blocking APIs using FastAPI + AsyncIO**
+- Enabled **30+ concurrent evaluations without bottlenecks**
+- Used Redis for caching and real-time system responsiveness
+
+---
+
+![WhatsApp Image 2026-03-29 at 2 47 40 PM](https://github.com/user-attachments/assets/46e25e6a-510b-473e-9d40-e69beecf25fb)
+![WhatsApp Image 2026-03-29 at 2 47 40 PM (1)](https://github.com/user-attachments/assets/88a0a5d6-ff8b-49d4-bfa8-165bc99d89c4)
+![WhatsApp Image 2026-03-29 at 2 49 35 PM](https://github.com/user-attachments/assets/2187e486-7a73-43b8-b6d0-53168298b3a5)
+
+
 
 ---
 
@@ -49,7 +71,7 @@ High-throughput backend system for handling concurrent workloads.
 - Enabled scalable execution for real-time applications  
 
 **Tech:** FastAPI · Redis · AsyncIO · SSE  
-👉 [Project Link]
+👉 [Project Link: https://github.com/Nameerakhan/Deception.git]
 
 ---
 
@@ -98,8 +120,16 @@ Rakuten Symphony, Indore, India · Jul 2023 – Jul 2024
 
 ---
 
+## Contact
+
+📧 nameerakhan1105@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/nameerakhan  
+🔗 GitHub: https://github.com/Nameerakhan
+
 ## Getting Started
+
 
 ```bash
 npm install
 npm run dev
+
