@@ -58,7 +58,7 @@ export default function Skills() {
       <FadeUp delay={0}>
         <div className="mb-4 flex items-baseline gap-4">
           <span className="font-mono text-xs uppercase tracking-widest text-ink-3">
-            03 /
+            05 /
           </span>
           <h2 className="font-display text-4xl font-bold text-ink">Skills</h2>
         </div>

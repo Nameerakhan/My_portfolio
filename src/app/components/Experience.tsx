@@ -51,14 +51,14 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="relative -mx-6 bg-bg-card px-6 py-16 md:-mx-12 md:px-12 md:py-24"
+      className="relative -mx-6 bg-bg-card px-6 py-16 pb-10 md:-mx-12 md:px-12 md:pt-24 md:pb-14"
     >
       <div className="mx-auto max-w-[1200px]">
         {/* Section header */}
         <FadeUp delay={0}>
           <div className="mb-4 flex items-baseline gap-4">
             <span className="font-mono text-xs uppercase tracking-widest text-ink-3">
-              02 /
+              03 /
             </span>
             <h2 className="font-display text-4xl font-bold text-ink">
               Experience

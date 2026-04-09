@@ -48,6 +48,7 @@ const standardProjects = [
       { display: "High-80%", label: "Val Accuracy" },
     ],
     tags: ["PyTorch", "Hugging Face", "Embeddings", "Model Eval", "Python"],
+    link: "https://github.com/Nameerakhan/AI_vs_Human_Text_Classifier",
   },
   {
     number: "04",
@@ -84,7 +85,7 @@ export default function Projects() {
       <FadeUp delay={0}>
         <div className="mb-4 flex items-baseline gap-4">
           <span className="font-mono text-xs uppercase tracking-widest text-ink-3">
-            01 /
+            02 /
           </span>
           <h2 className="font-display text-4xl font-bold text-ink">
             Selected Work
@@ -95,8 +96,14 @@ export default function Projects() {
 
       {/* ── Featured Card — NetSec Arcade ── */}
       <FadeUp delay={0.1}>
+        <a
+          href="https://github.com/Quiz-Rag/next-app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block group"
+        >
         <motion.div
-          className="border border-[#5A1228] bg-[#781D3A] p-6 transition-shadow duration-300 sm:p-10"
+          className="border border-[#5A1228] bg-[#781D3A] p-6 transition-shadow duration-300 sm:p-10 cursor-pointer"
           whileHover={{ y: -3, boxShadow: "0 12px 40px rgba(120,29,58,0.3)" }}
           transition={{ duration: 0.3 }}
         >
@@ -106,7 +113,7 @@ export default function Projects() {
               <p className="mb-4 font-mono text-xs tracking-widest text-[#F5D6C3]">
                 01
               </p>
-              <span className="mb-3 inline-block bg-[#5A1228] px-3 py-1 font-mono text-xs text-[#F5D6C3]">
+              <span className="mb-3 inline-block bg-green-100 px-3 py-1 font-mono text-xs text-green-700 border border-green-300 rounded-full">
                 Live
               </span>
               <h3 className="mb-1 font-display text-2xl font-bold text-white">
@@ -158,6 +165,7 @@ export default function Projects() {
             </div>
           </div>
         </motion.div>
+        </a>
       </FadeUp>
 
       {/* ── Standard Cards ── */}
@@ -183,7 +191,18 @@ export default function Projects() {
                   {project.number}
                 </p>
 
-                <span className="mb-3 inline-block bg-accent-hover px-3 py-1 font-mono text-xs text-accent">
+                <span
+                  className={`mb-3 inline-block rounded-full px-3 py-1 font-mono text-xs ${
+                    project.status === "Live"
+                      ? "bg-green-100 text-green-700 border border-green-300"
+                      : "bg-accent-hover text-accent"
+                  }`}
+                  style={
+                    project.status === "In Development"
+                      ? { background: "#FEF3C7", color: "#B45309", border: "1px solid #FCD34D" }
+                      : {}
+                  }
+                >
                   {project.status}
                 </span>
 
